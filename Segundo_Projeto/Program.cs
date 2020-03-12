@@ -18,7 +18,7 @@ namespace Projeto_Conversao_Dolar
 
             ConversorDeMoeda.CotacaoDoDolar();
                                  
-            Console.Write($"Quando dólares deseja comprar? ");
+            Console.Write($"Quantos dólares deseja comprar? ");
             double valor_em_dols = Double.Parse(Console.ReadLine());
 
             double val_total = ConversorDeMoeda.ValorTotal(valor_em_dols);

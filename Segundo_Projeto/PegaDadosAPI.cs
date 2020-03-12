@@ -77,8 +77,5 @@ namespace Projeto_Conversao_Dolar
             return data;
 
         }
-
-        
-
     }
 }
